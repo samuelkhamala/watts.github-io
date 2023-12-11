@@ -300,6 +300,138 @@ header{
 .socials a:hover{
     color: var(--second-color);
 }
+
+/* Press section starts here  */
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    margin-top: 5rem;
+    border-bottom: 1px solid #f01326;
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #f01326;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    max-width: 350px;
+    background-color: white;
+    border: 1px solid #192f6a9a;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #f01326;
+    font-size: .786rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #192f6a;
+}
+.blog-text .blog-title:hover{
+    color: #5f2026;
+    transition: all ease .3s;
+}
+.blog-text p{
+    font-size: 0.938rem;
+    color: #314862;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0;
+}
+
+/* Pre-Order starts here  */
+.contact p{
+    font-size: 0.938rem;
+    margin-bottom: 40px;
+}
+.contact-box{
+    background: #fbfbfb;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    color: #fbfbfb;
+    padding: 40px;
+    background: #f01326;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+form{
+    margin-top: 40px;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #314862;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #192f6a;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: block;
+}
+button{
+    outline: none;
+    border: none;
+    width: 200px;
+    margin-top: 15px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
 /* Responsiveness  */
 @media (max-width: 1080px){
     .container{
